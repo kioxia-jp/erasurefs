@@ -15,6 +15,7 @@ install required libraries.
     $ sudo apt install build-essential git liburing-dev libnvme-dev libboost-dev libisal-dev 
 
 build `db_bench` with ErasureFs and ufrop plugin enabled.
+
     $ git clone https://github.com/facebook/rocksdb.git
     $ cd rocksdb
     $ git clone -b erasurefs https://github.com/kioxia-jp/ufrop.git plugin/ufrop
